@@ -382,22 +382,21 @@ border-radius: 50%;
 
 margin-bottom: 30px;
 }
-.social-icon-link {
+.social-icon-link{
+display: block;
 fill:  #AFB1B8;
 }
 .social-icon-item:not(:last-child){
-  margin-right: 10px;
+margin-right: 10px;
+}
+.social-icon-item:hover .social-icon-link,
+.social-icon-item:focus .social-icon-link {
+fill: var(--primery-background-color);
 }
 .social-icon-item:hover,
-.social-icon-item:focus{
+.social-icon-item:focus {
 background-color: var(--accent-color);
 }
-.social-icon-item .social-icon-link:hover,
-.social-icon-link:focus{
-fill: var(--primery-background-color);
-
-}
-
 /* Постоянные клиенты */
 .clients {
   display: flex;
@@ -421,7 +420,6 @@ display: block;
 fill:  #afb1b8; 
 padding-top: 20px;
 padding-bottom: 20px; 
-
 }
 .clients-item .clients-link:hover,
 .clients-item .clients-link:focus {
