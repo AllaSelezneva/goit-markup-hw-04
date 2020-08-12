@@ -424,11 +424,7 @@ padding-bottom: 20px;
 .clients-link{ 
 display: block;
 fill:  #afb1b8; 
-
-/* padding-top: 20px;
-padding-bottom: 20px; */
 }
-
 .clients-item .clients-icon:hover,
 .clients-item .clients-icon:focus {
 fill: var(--accent-color);
