@@ -388,14 +388,14 @@ fill:  #AFB1B8;
 .social-icon-item:not(:last-child){
   margin-right: 10px;
 }
-.social-icon-link:hover .social-icon,
-.social-icon-link:focus .social-icon {
-fill: var(--primery-background-color);
-}
 .social-icon-item:hover,
 .social-icon-item:focus{
 background-color: var(--accent-color);
-border-radius: 50%;
+}
+.social-icon-item .social-icon-link:hover,
+.social-icon-link:focus{
+fill: var(--primery-background-color);
+
 }
 
 /* Постоянные клиенты */
@@ -413,25 +413,22 @@ height: 90px;
 
 text-align: center;
 
-fill: #AFB1B8;
-
 border-radius: 4px;
 border: 1px solid #afb1b8;
-
-padding-top: 20px;
-padding-bottom: 20px; 
 }
 .clients-link{ 
 display: block;
 fill:  #afb1b8; 
+padding-top: 20px;
+padding-bottom: 20px; 
+
 }
-.clients-item .clients-icon:hover,
-.clients-item .clients-icon:focus {
+.clients-item .clients-link:hover,
+.clients-item .clients-link:focus {
 fill: var(--accent-color);
 }
 .clients-item:hover,
 .clients-item:focus {
-border-radius: 4px;
 border: 1px solid var(--accent-color);
 }
 .clients-title .clients-item:not(:last-child) {
